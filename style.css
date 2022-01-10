@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.background-style {
+    display: table;
+    width: 100%;
+    height: 100%; 
+    margin-top: 150px;
+    /* padding: 100px 0; */
+    color: white;
+    background-image: linear-gradient(90deg, rgba(11, 12, 16, 0.6) 0%, rgba(11, 12, 16, 0.4) 52.08%, rgba(12, 12, 16, 0.6) 100%), url(img/spider-man-miles-morales-4k-2020-ix-1920x1080\ 1.png);
+    background-position: 30% 45%;
+    background-size: cover;
+   
+}
+
+.avatar {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    left: 25px;
+    top: 10px;
+    border-radius: 50px;
+}
+
+.button-git {
+    background: none;
+    border: none;
+    padding: 0 10px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.online{
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    left: 63px;
+    top: 50px;
+    background: #0ACF83;
+    border: 1px solid #F9F9F9;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.background-header-horizontal{
+    top: 0px;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    left: 100px;
+    backdrop-filter: blur(6px);
+    background: rgba(29, 29, 29, 0.5);
+}    
+
+.background-header-vertical{
+    position: fixed;
+    width: 100px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    backdrop-filter: blur(6px);
+    background: rgba(29, 29, 29, 0.5);
+    
+}
+
+.center{
+    margin:0 auto;
+    width:35px;
+}
+
+.spider{
+    padding: 10px 0;
+    padding-top: 20px;
+    width: 35px;
+    height: 70px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    position: absolute;
+    top: -10px;
+}
+
+main{
+    margin: 0;
+    padding-top: 295px;
+}
+
+main > img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    display: block;
+    height: 150px;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+.menu a {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+    padding: 14px 0;
+}
+
+.marvel {
+	width:90px;
+	position: absolute;
+    right: 1310px;
+    top: -3px;
+}
+
+.trailer {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 100px;
+}
+
+.menu-2 {
+    display: flex;
+    list-style: none;
+    float: left;
+    position: absolute;
+    top: 50px;
+    right: 1430px;
+}
+
+.menu-2 > .navigator-2 {
+   
+    display:block;
+	width:120px;
+	float:left;
+	margin-left: 2px;
+    padding: 20px 0;
+}
